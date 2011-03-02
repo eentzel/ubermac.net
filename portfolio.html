@@ -4,47 +4,52 @@
         <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
         <title>Eric Entzel's portfolio</title>
         <meta name="description" content="Portfolio of public sites/projects by Eric Entzel" />
+        <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" href="styles.css" type="text/css" />
     </head>
     <body>
-        <h1>Eric Entzel's Portfolio</h1>
-        <p>Here are some of the public projects I've worked on recently:
-            <dl>
-                <dt><a href="http://www.ubermac.net/raidplanner/">Thunderclese's raid planner</a></dt>
-                <dd>A web app to help plan World of Warcraft raid groups.</dd>
-
-                <dt><a href="http://www.myeventbot.com/">EventBot</a></dt>
-                <dd>
-                    EventBot is a service I created that allows users
-                    to create Google Calendar events by sending an
-                    email to their own personal EventBot
-                    address. Written in Python & deployed
-                    on <a href="http://code.google.com/appengine/">Google
-                    App Engine.</a> Despite only having ~10 unique
-                    users per day, I've learned a lot about
-                    scalability by using the loosely-coupled
-                    architecture that App Engine encourages. I've also
-                    used EventBot as an opportunity to hone my skills
-                    at zero-friction testing and deployment.
-                </dd>
-
-                <dt><a href="http://en.detelefoongids.nl/">De Telefoongids</a></dt>
-                <dd>
-                    Directory site for the largest Internet Yellow
-                    Pages company in the Netherlands, with over 6.9
-                    million monthly unique visitors. With colleagues
-                    at <a href="http://www.localmatters.com/">Local
+        <header>
+            <h1>Eric Entzel's Portfolio</h1>
+            <p>Here are some of the public projects I've worked on recently:</p>
+        </header>
+        <article>
+            <img src="eventbot.png" alt="EventBot screenshot" class="screenshot" />
+            <h2><a href="http://www.myeventbot.com/">EventBot</a></h2>
+            <p>
+                EventBot is a service I created that allows users
+                to create Google Calendar events by sending an
+                email to their own personal EventBot
+                address. Written in Python & deployed
+                on <a href="http://code.google.com/appengine/">Google
+                App Engine.</a> Despite only having ~10 unique
+                users per day, I've learned a lot about
+                scalability by using the loosely-coupled
+                architecture that App Engine encourages. I've also
+                used EventBot as an opportunity to hone my skills
+                at zero-friction testing and deployment.
+            </p>
+        </article>
+        <article>
+            <img src="dtg.png" alt="De Telefoongids screenshot" class="screenshot" />
+            <h2><a href="http://en.detelefoongids.nl/">De Telefoongids</a></h2>
+            <p>
+                Directory site for the largest Internet Yellow
+                Pages company in the Netherlands, with over 6.9
+                million monthly unique visitors. With colleagues
+                at <a href="http://www.localmatters.com/">Local
                     Matters</a>, I implemented cross-browser UI for
-                    everything from basic pages to interactive
-                    Javascript maps. I also worked closely with the
-                    operations team to debug and resolve production
-                    issues. Recently, I've taken the lead in
-                    implementing performance improvements, including
-                    request optimization
-                    and <a href="http://www.varnish-cache.org/">Varnish</a>
-                    caching, to greatly reduce hardware requirements
-                    and speed up the site for end users.
-                </dd>
-            </dl>
-        </p>
+                everything from basic pages to interactive
+                Javascript maps. I also worked closely with the
+                operations team to debug and resolve production
+                issues. Recently, I've taken the lead in
+                implementing performance improvements, including
+                request optimization
+                and <a href="http://www.varnish-cache.org/">Varnish</a>
+                caching, to greatly reduce hardware requirements
+                and speed up the site for end users.
+            </p>
+        </article>
     </body>
 </html>
