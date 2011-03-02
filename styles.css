@@ -60,14 +60,17 @@ h2 {
 h2 a {
     color: #444;
     text-decoration: none;
-    display: block;
+    padding-right: 30px;
     background: url(r-arrow.png) no-repeat right center;
+}
+h2 a:hover {
+    background-image: url(r-arrow-active.png);
 }
 header {
     margin: 20px;
 }
 article {
-    margin: 20px;
+    margin: 20px 20px 40px;
     clear: both;
     float: left;
 }
