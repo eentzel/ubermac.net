@@ -71,10 +71,10 @@ h2 a:hover {
     background-image: url(r-arrow-active.png);
 }
 header {
-    margin: 20px;
+    padding: 20px;
 }
 article {
-    margin: 20px 20px 40px;
+    padding: 20px 20px 40px;
     clear: both;
     float: left;
     width: 920px;
