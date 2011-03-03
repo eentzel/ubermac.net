@@ -10,10 +10,15 @@
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
     </head>
-    <body>
+    <body class="vcard">
         <header>
-            <h1>Eric Entzel's Portfolio</h1>
-            <p>Here are some of the public projects I've worked on recently:</p>
+            <h1><span class="fn">Eric Entzel</span>'s Portfolio</h1>
+            <p class="adr">
+                I am a <span class="role">software developer</span>
+                residing in <span class="locality">Denver</span>,
+                <span class="region">CO</span>. Here are some of the
+                public projects I've worked on recently:
+            </p>
         </header>
         <article>
             <img src="eventbot.png" alt="EventBot screenshot" class="screenshot" />
@@ -52,5 +57,13 @@
                 and speed up the site for end users.
             </p>
         </article>
+        <nav>
+            <ul>
+                <li><a rel="me" href="http://github.com/eentzel">GitHub</a></li>
+                <li><a rel="me" href="http://twitter.com/eentzel">Twitter</a></li>
+                <li><a class="email" href="mailto:eric@ubermac.net">Email</a></li>
+                <li><a href="/eric-entzel-resume.pdf">Resume (pdf)</a></li>
+            </ul>
+        </nav>
     </body>
 </html>
