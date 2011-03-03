@@ -1,27 +1,69 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="http://fonts.googleapis.com/css?family=Bevan" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="styles.css" type="text/css" />
         <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
-        <title>Eric Entzel</title>
+        <title>Eric Entzel's portfolio</title>
+        <meta name="description" content="Portfolio of public sites/projects by Eric Entzel" />
+        <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
     </head>
     <body class="vcard">
-        <h1 class="fn">Eric Entzel</h1>
-        <p class="adr">I am a <span class="role">software developer</span> residing in <span class="locality">Denver</span>, <span class="region">CO</span>. Check out my:</p>
-        <ul>
-            <li><a href="/eric-entzel-resume.pdf">Resume (pdf)</a></li>
-            <li><a href="/portfolio.html">Portfolio</a></li>
-            <li><a rel="me" href="http://github.com/eentzel">GitHub account</a></li>
-            <li><a rel="me" href="http://twitter.com/eentzel">Twitter account</a></li>
-        </ul>
-        <p>or <a class="email" href="mailto:eric@ubermac.net">email</a> me.</p>
-        <hr/>
-        <blockquote cite="https://www.ibm.com/developerworks/aix/library/au-cleancode/">
-        <p>
-        A succesful software developer will devise a way to run the tests in an easily automated fashion, so they can continuously prove the software works. They are aware of the dangers of needless complexity. They are humble in their approach, seek critical review, and expect refactoring at every step of the way. They continuously think about how they can ensure their software is testable, readable, and maintainable.
-        </p>
-        <p>
-            &mdash; <cite><a href="https://www.ibm.com/developerworks/aix/library/au-cleancode/">Noah Gift</a></cite>
-        </p>
-        </blockquote>
+        <header>
+            <h1><span class="fn">Eric Entzel</span>'s Portfolio</h1>
+            <p class="adr">
+                I am a <span class="role">software developer</span>
+                residing in <span class="locality">Denver</span>,
+                <span class="region">CO</span>. Here are some of the
+                public projects I've worked on recently:
+            </p>
+        </header>
+        <article>
+            <img src="eventbot.png" alt="EventBot screenshot" class="screenshot" />
+            <h2><a href="http://www.myeventbot.com/">EventBot</a></h2>
+            <p>
+                EventBot is a service I created that allows users
+                to create Google Calendar events by sending an
+                email to their own personal EventBot
+                address. Written in Python & deployed
+                on <a href="http://code.google.com/appengine/">Google
+                App Engine</a>. Despite only having ~10 unique
+                users per day, I've learned a lot about
+                scalability by using the loosely-coupled
+                architecture that App Engine encourages. I've also
+                used EventBot as an opportunity to hone my skills
+                at zero-friction testing and deployment.
+            </p>
+        </article>
+        <article>
+            <img src="dtg.png" alt="De Telefoongids screenshot" class="screenshot" />
+            <h2><a href="http://en.detelefoongids.nl/">De Telefoongids</a></h2>
+            <p>
+                Directory site for the largest Internet Yellow
+                Pages company in the Netherlands, with over 6.9
+                million monthly unique visitors. With colleagues
+                at <a href="http://www.localmatters.com/">Local
+                    Matters</a>, I implemented cross-browser UI for
+                everything from basic pages to interactive
+                Javascript maps. I also worked closely with the
+                operations team to debug and resolve production
+                issues. Recently, I've taken the lead in
+                implementing performance improvements, including
+                request optimization
+                and <a href="http://www.varnish-cache.org/">Varnish</a>
+                caching, to greatly reduce hardware requirements
+                and speed up the site for end users.
+            </p>
+        </article>
+        <nav>
+            <ul>
+                <li><a rel="me" href="http://github.com/eentzel">GitHub</a></li>
+                <li><a rel="me" href="http://twitter.com/eentzel">Twitter</a></li>
+                <li><a class="email" href="mailto:eric@ubermac.net">Email</a></li>
+                <li><a href="/eric-entzel-resume.pdf">Resume (pdf)</a></li>
+            </ul>
+        </nav>
     </body>
 </html>
