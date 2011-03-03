@@ -38,7 +38,7 @@ ol, ul {
 /* ubermac.net styles */
 body {
     font-size: 12px;
-    font-family: Allerta, sans-serif;
+    font-family: sans-serif;
     background-color: #fff;
     color: #555;
 }
@@ -50,8 +50,8 @@ p {
     line-height: 1.5em;
 }
 h1, h2 {
-    font-family: Kreon, sans-serif;
-    font-weight: bold;
+    font-family: Bevan, sans-serif;
+    font-weight: normal;
 }
 h1 {
     color: #444;
@@ -64,7 +64,7 @@ h2 a {
     color: #444;
     text-decoration: none;
     padding-right: 30px;
-    background: url(r-arrow.png) no-repeat right -2px;
+    background: url(r-arrow.png) no-repeat right center;
 }
 h2 a:hover {
     background-image: url(r-arrow-active.png);
