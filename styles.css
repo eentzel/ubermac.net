@@ -91,6 +91,7 @@ article h2, article p {
 
 nav {
     position: fixed;
+    clear: both;
     background-color: #ccc;
     bottom: 0;
     left: 0;
