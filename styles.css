@@ -46,10 +46,10 @@ a {
     color: #c93525;
 }
 p {
-    margin-top: 1em;
     line-height: 1.5em;
 }
 h1, h2 {
+    margin-bottom: 12px;
     font-family: Bevan, sans-serif;
     font-weight: normal;
 }
