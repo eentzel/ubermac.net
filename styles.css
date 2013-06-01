@@ -76,19 +76,25 @@ header {
     padding: 20px;
 }
 article {
-    padding: 20px 20px 40px;
+    margin: 20px 20px 40px;
     clear: both;
     float: left;
-    width: 920px;
+    max-width: 920px;
 }
 .screenshot {
     float: left;
     width: 480px;
-    margin-right: 20px;
+    margin: 0 20px 20px 0;
 }
-article h2, article p {
+article .description {
     float: left;
     width: 420px;
+}
+
+@media (max-width: 960px) {
+    article .description {
+        width: 480px;
+    }
 }
 
 nav {
