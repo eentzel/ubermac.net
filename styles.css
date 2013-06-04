@@ -60,7 +60,6 @@ img.screenshot {
 
 @media (min-width: 59.25em) {
     .js article {
-        /* clear: both; */
         float: left;
         width: 57.25em;
         padding-bottom: 1em;
@@ -80,10 +79,20 @@ img.screenshot {
 }
 
 
-/* image replacement */
 
+/* Nav bar */
 
-/* TEMP */
 nav {
-    display: none;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+nav ul {
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+nav li {
+    display: inline;
+    padding: 0 .5em;
 }
