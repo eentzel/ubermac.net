@@ -56,17 +56,27 @@ img.screenshot {
     img.screenshot {
         width: 30em;
     }
+}
 
-    /* .description {
-     *     float: right;
-     *     width: 25.26em;
-     *     margin-left: 1em;
-     * } */
+@media (min-width: 59.25em) {
+    .js article {
+        /* clear: both; */
+        float: left;
+        width: 57.25em;
+        padding-bottom: 1em;
+    }
 
-    /* article {
-     *     clear: both;
-     *     float: left;
-     * } */
+    .js article h2 {
+        width: 17.5em;
+        float: right;
+    }
+    .js article p {
+        width: 26.25em;
+        float: right;
+    }
+    .js article img {
+        float: left;
+    }
 }
 
 
