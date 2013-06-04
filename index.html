@@ -79,17 +79,46 @@
         </nav>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
         <script>
-            function showImage(el) {
-              var alt = el.attr('data-alt'),
-                  className = el.attr('class'),
-                  src = el.attr('href');
-              el.replaceWith('<img class="' + className + '" alt="' + alt + '" src="' + src + '" />');
-            };
+            function debounce(func, wait, immediate) {
+              // shamelessly stolen from underscore.js:
+              // http://underscorejs.org/
+              var timeout, result;
+              return function() {
+                var context = this, args = arguments;
+                var later = function() {
+                  timeout = null;
+                  if (!immediate) result = func.apply(context, args);
+                };
+                var callNow = immediate && !timeout;
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+                if (callNow) result = func.apply(context, args);
+                return result;
+              };
+            }
+
+            function showImage(idx, el) {  // idx is ignored, jQuery's .each() is lame and passes idx as first arg
+              var $el = $(el),
+                  alt = $el.attr('data-alt'),
+                  className = $el.attr('class'),
+                  src = $el.attr('href');
+              $el.replaceWith('<img class="' + className + '" alt="' + alt + '" src="' + src + '" />');
+            }
 
             $('a.screenshot').on('click', function(evt) {
               evt.preventDefault();
-              showImage($(this));
+              showImage(0, this);
             });
+
+            function maybeLoadImages() {
+              if (document.body.clientWidth > 948) {
+                $('a.screenshot').each(showImage);
+                $(window).off('resize');
+              }
+            }
+
+            $(document).ready(maybeLoadImages);
+            $(window).resize(debounce(maybeLoadImages, 250));
         </script>
     </body>
 </html>
