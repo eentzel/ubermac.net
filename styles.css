@@ -1,80 +1,79 @@
+/* Typography */
+
 body {
-    font-size: 12px;
     font-family: sans-serif;
-    background-color: #fff;
-    color: #555;
+    background-color: #eee;
+    color: #444;
 }
 a {
     color: #c93525;
 }
-p {
-    line-height: 1.5em;
-}
 h1, h2 {
-    margin-bottom: 12px;
-    font-family: Bevan, sans-serif;
-    font-weight: normal;
+    font-family: Bevan, serif;
+    font-weight: normal;        /* TODO: better font that doesn't need this, so fallback works consistently */
 }
-h1 {
-    color: #444;
-    font-size: 3em;
-}
-h2 {
-    font-size: 2em;
-}
-h2 a {
+h1 a, h2 a {
     color: #444;
     text-decoration: none;
-    padding-right: 30px;
-    background: url(r-arrow.png) no-repeat right center;
-}
-h2 a:hover {
-    background-image: url(r-arrow-active.png);
-}
-header {
-    padding: 20px;
-}
-article {
-    margin: 20px 20px 40px;
-    clear: both;
-    float: left;
-    max-width: 920px;
-}
-.screenshot {
-    float: left;
-    width: 480px;
-    margin: 0 20px 20px 0;
-}
-article .description {
-    float: left;
-    width: 420px;
 }
 
-@media (max-width: 960px) {
-    article .description {
-        width: 480px;
+
+
+
+/* Structural */
+
+body {
+    padding: 1.25em;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0 0 .5em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0 0 .667em;
+}
+
+p {
+    margin: 0 0 1em;
+}
+
+a.screenshot {
+    font-size: 0.625em;
+    margin: 0 0 1.6em;
+    display: block;
+}
+
+img.screenshot {
+    width: 100%;
+    margin: 0 0 1em;
+}
+
+@media (min-width: 30em) {
+    img.screenshot {
+        width: 30em;
     }
+
+    /* .description {
+     *     float: right;
+     *     width: 25.26em;
+     *     margin-left: 1em;
+     * } */
+
+    /* article {
+     *     clear: both;
+     *     float: left;
+     * } */
 }
 
+
+/* image replacement */
+
+
+/* TEMP */
 nav {
-    position: fixed;
-    background-color: #ccc;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    padding: 6px;
-
-    /* for IE6: */
-    clear: both;
-    zoom: 1;
-}
-
-nav li {
-    display: inline;
-    padding: 0 10px;
-}
-
-nav a {
-    color: #333;
+    display: none;
 }
