@@ -52,7 +52,7 @@ img.screenshot {
     margin: 0 0 1em;
 }
 
-@media (min-width: 30em) {
+@media (min-width: 32.5em) {
     img.screenshot {
         width: 30em;
     }
@@ -83,6 +83,7 @@ img.screenshot {
 /* Nav bar */
 
 nav {
+    clear: both;
     text-align: center;
     border-top: 1px solid #ccc;
 }
@@ -90,6 +91,7 @@ nav {
 nav ul {
     list-style: none;
     margin-bottom: 0px;
+    padding: 0;
 }
 
 nav li {
