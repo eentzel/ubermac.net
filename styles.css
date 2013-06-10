@@ -61,6 +61,7 @@ img.screenshot {
 @media (min-width: 59.25em) {
     .js article {
         float: left;
+        clear: left;
         width: 57.25em;
         padding-bottom: 1em;
     }
