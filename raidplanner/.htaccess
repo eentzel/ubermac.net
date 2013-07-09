@@ -1,0 +1,11 @@
+ErrorDocument 404 /raidplanner/notfound.html
+
+<FilesMatch "config\.php|\.sh|\.tmpl|TODO">
+  order allow,deny
+  deny from all
+</FilesMatch>
+
+RewriteEngine On
+RewriteRule ^([0-9]+)$ show.php?raid_id=$1
+RewriteRule ^save$ save.php
+php_flag display_errors Off

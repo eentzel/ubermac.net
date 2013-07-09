@@ -1,0 +1,185 @@
+html {
+  height: 100%;
+  background-color: #e0e0e0;
+}
+
+body {
+  font-size: 12px;
+  font-family: verdana, sans-serif;
+  padding-left: .5em;
+  cursor: default;
+  background-color: #e0e0e0;
+  height: 100%;
+}
+
+a {
+  color: #68ccef;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 300%;
+  font-weight: bold;
+  color: #68ccef;
+}
+
+#raidwindow input {
+  font-size: 12px;
+  font-family: sans-serif;
+  border: 0;
+  padding: 0;
+  margin-left: 0;
+  cursor: text;
+}
+
+#raidwindow {
+  position: absolute;
+  left: 12.5em;
+  top: 6.5em;
+}
+
+/* This could just be '#raidwindow > div' if it weren't for IE6... */
+#group1, #group2, #group3, #group4, #group5, #group6, #group7, #group8 {
+  border: 1px solid #666666;
+  position: absolute;
+}
+
+#group2, #group4, #group6, #group8 {
+  left: 12.75em;
+}
+
+#group3, #group4 {
+  top: 7.5em;
+}
+
+#group5, #group6 {
+  top: 15em;
+}
+
+#group7, #group8 {
+  top: 22.5em;
+}
+
+.playerslot {
+  background-color: #1A1914;
+  font-weight: bold;
+  margin: 0;
+  border: 1px solid #cccccc;
+  width: 12em;
+  height: 1.25em;
+  padding-left: 0.25em;
+  overflow: hidden;
+}
+
+#playerwell {
+  width: 11em;
+  top: 6.5em;
+  position: absolute;
+}
+
+#playerwell div {
+  cursor: pointer;
+  background-image: url(./r_arrow.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+  width: 10em;
+}
+
+.trashcan {
+    /* if border: is in #trashcan, it doesn't get overridden by
+       the .droptarget border */
+    border: 1px solid black;
+}
+
+#trashcan {
+  color: #c2c2c2;
+  text-align: center;
+  background-color: #666666;
+  padding-left: 3px;
+  padding-top: 6em;
+  width: 10em;
+  height: 8em;
+  top: 22em;
+  position: absolute;
+}
+
+#savearea {
+  color: #c2c2c2;
+  background-color: #666666;
+  border: 2px solid #666666;  
+  padding-top: .2em;
+  padding-bottom: .2em;
+  position: absolute;
+  width: 37em;
+  height: 2em;
+  top: 37em;
+  text-align: center;
+}  
+
+#savearea input {
+  margin-top: .25em;
+  margin-bottom: .25em;
+}
+
+#footer {
+  position: absolute;
+  top: 40em;
+  text-align: center;
+  width: 37em;
+}
+
+#contexthelp {
+  background-color: #fff468;
+  border: 2px solid #fff468;
+  width: 37em;
+  height: 2em;
+  margin-bottom: .5em;
+}
+
+#helpstrings {
+  display: none;
+}
+
+.droptarget {
+  border: 1px solid #ffff00;
+}
+
+.deathknight {
+  color: #C41E3B;
+}
+
+.druid {
+  color: #ff7c0a;
+}
+
+.hunter {
+  color: #aad372;
+}
+
+.mage {
+  color: #68ccef;
+}
+
+.paladin {
+  color: #f48cba;
+}
+
+.priest {
+  color: #ffffff;
+}
+
+.rogue {
+  color: #fff468;
+}
+
+.shaman {
+  color: #2359ff;
+}
+
+.warlock {
+  color: #9382c9;
+}
+
+.warrior {
+  color: #c69b6d;
+}

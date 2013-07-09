@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+  <title>Thunderclese's Raid Planner</title>
+  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.5.2/build/reset/reset-min.css" /> 
+  <link rel="stylesheet" type="text/css" href="raid_ui.css" />
+  <meta name="description" content="A tool to plan class and group composition for your World of Warcraft raids." />
+</head>
+<body>
+  <h1><a href="/raidplanner/">Thunderclese's Raid Planner</a></h1>
+  <div id="contexthelp"><noscript>
+    To use this app, you must first
+    <a href="http://www.google.com/support/bin/answer.py?answer=23852">enable
+    Javascript</a>.
+  </noscript></div>
+  <div id="raidwindow">
+    <div id="group1">
+      <div id="player0" class="playerslot "></div>
+      <div id="player1" class="playerslot "></div>
+      <div id="player2" class="playerslot "></div>
+      <div id="player3" class="playerslot "></div>
+      <div id="player4" class="playerslot "></div>
+    </div>
+    <div id="group2">
+      <div id="player5" class="playerslot "></div>
+      <div id="player6" class="playerslot "></div>
+      <div id="player7" class="playerslot "></div>
+      <div id="player8" class="playerslot "></div>
+      <div id="player9" class="playerslot "></div>
+    </div>
+    <div id="group3">
+      <div id="player10" class="playerslot "></div>
+      <div id="player11" class="playerslot "></div>
+      <div id="player12" class="playerslot "></div>
+      <div id="player13" class="playerslot "></div>
+      <div id="player14" class="playerslot "></div>
+    </div>
+    <div id="group4">
+      <div id="player15" class="playerslot "></div>
+      <div id="player16" class="playerslot "></div>
+      <div id="player17" class="playerslot "></div>
+      <div id="player18" class="playerslot "></div>
+      <div id="player19" class="playerslot "></div>
+    </div>
+    <div id="group5">
+      <div id="player20" class="playerslot "></div>
+      <div id="player21" class="playerslot "></div>
+      <div id="player22" class="playerslot "></div>
+      <div id="player23" class="playerslot "></div>
+      <div id="player24" class="playerslot "></div>
+    </div>
+    <div id="group6">
+      <div id="player25" class="playerslot "></div>
+      <div id="player26" class="playerslot "></div>
+      <div id="player27" class="playerslot "></div>
+      <div id="player28" class="playerslot "></div>
+      <div id="player29" class="playerslot "></div>
+    </div>
+    <div id="group7">
+      <div id="player30" class="playerslot "></div>
+      <div id="player31" class="playerslot "></div>
+      <div id="player32" class="playerslot "></div>
+      <div id="player33" class="playerslot "></div>
+      <div id="player34" class="playerslot "></div>
+    </div>
+    <div id="group8">
+      <div id="player35" class="playerslot "></div>
+      <div id="player36" class="playerslot "></div>
+      <div id="player37" class="playerslot "></div>
+      <div id="player38" class="playerslot "></div>
+      <div id="player39" class="playerslot "></div>
+    </div>
+  </div>
+  <div id="playerwell">
+    <div class="playerslot deathknight">Death Knight</div>
+    <div class="playerslot druid">Druid</div>
+    <div class="playerslot hunter">Hunter</div>
+    <div class="playerslot mage">Mage</div>
+    <div class="playerslot paladin">Paladin</div>
+    <div class="playerslot priest">Priest</div>
+    <div class="playerslot rogue">Rogue</div>
+    <div class="playerslot shaman">Shaman</div>
+    <div class="playerslot warlock">Warlock</div>
+    <div class="playerslot warrior">Warrior</div>
+  </div>
+  <div id="trashcan" class="trashcan">
+    Drag players here to delete
+  </div>
+  <div id="savearea"></div>
+  <div id="footer">
+    Questions? Problems?  Email <a href="mailto:raidplanner@gmail.com">raidplanner@gmail.com</a><br />
+    Copyright 2008 ubermac.net
+  </div>
+  <div id="helpstrings">
+    <div id="add">Click below to add players to the raid:</div>
+    <div id="arrange">Drag players to rearrange, or double-click to edit player name</div>
+    <div id="edit">Enter new name &amp; hit enter to save, or esc to cancel</div>
+    <div id="saved">Your raid has been saved.  Bookmark this page to view your raid later.</div>
+    <div id="save_error">Unable to save your raid.  The server may be down.  If this error persists, please <a href="mailto:raidplanner@gmail.com">contact the management</a>.</div>
+  </div>
+  <script type="text/javascript" src="jquery-1.2.6.min.js"></script>
+  <script type="text/javascript" src="jquery-ui-personalized-1.5rc1.min.js"></script>
+  <script type="text/javascript" src="jquery.cookie.js"></script>
+  <script type="text/javascript" src="raid_ui.js"></script>
+  <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+    var pageTracker = _gat._getTracker("UA-5288239-1");
+    pageTracker._trackPageview();
+  </script>
+</body>
+</html>
