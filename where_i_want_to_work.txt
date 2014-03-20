@@ -1,0 +1,14 @@
+- I believe that the optimal size of the firm is getting smaller
+- I prefer small, profitable (ideally bootstrapped) companies
+- I prefer an open-source like culture:
+     - written comms: email, wiki, etc.
+     - code reivew via pull request
+     - ownership model (*not* "stay out of my area", but stewardship)
+- I believe most programmers (certainly me) do their best work in an
+  environment conducive to concentration - this means reasonably quiet, but
+  more importantly, a high threshold for interruptions. Private offices work
+  great. Shared workspace with a small (say max 4 person) team working with a
+  similar focus & rhythym is great as well. Open plan is *very* hard to
+  prevent degenerating into an interrupt-driven culture.
+- Remote obviously is conducive to concentration as well, but requires
+  dedication to a remote model.
