@@ -1,8 +1,7 @@
 ErrorDocument 404 /raidplanner/notfound.html
 
 <FilesMatch "config\.php|\.sh|\.tmpl|TODO|\.sample">
-  order allow,deny
-  deny from all
+  Require all denied
 </FilesMatch>
 
 RewriteEngine On

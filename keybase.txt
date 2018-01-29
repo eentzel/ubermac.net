@@ -1,0 +1,51 @@
+https://keybase.io/eentzel
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ubermac.net
+  * I am eentzel (https://keybase.io/eentzel) on keybase.
+  * I have a public key ASCJXYNZsFx85N57Rj7BjqSI4j_sJ6NKIxr4vVKh2VShdQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01011656c731f2d39c9d9c30e50be3bc4aca8ecdd7a18abea55356faf689eae61c750a",
+            "host": "keybase.io",
+            "kid": "0120895d8359b05c7ce4de7b463ec18ea488e23fec27a34a231af8bd52a1d954a1750a",
+            "uid": "0aef5c4ed8e69ceef7f4f4eff7db6d19",
+            "username": "eentzel"
+        },
+        "service": {
+            "hostname": "ubermac.net",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1481046741,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1481046700,
+        "hash": "b1c1b22e2f35016efc9fc8d13d56e5da3db85d35241b236846a6aea49e692d55bd72a39b6226884e8a770b5c1f7645b98c4376935ffb1aa016572f91886ddb78",
+        "seqno": 749971
+    },
+    "prev": "62ba0b29d22d83b6e5cb89fb57ccbc9935236cd71a7daded7923d2e2a5e483ee",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgiV2DWbBcfOTee0Y+wY6kiOI/7CejSiMa+L1SodlUoXUKp3BheWxvYWTFAvJ7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMTY1NmM3MzFmMmQzOWM5ZDljMzBlNTBiZTNiYzRhY2E4ZWNkZDdhMThhYmVhNTUzNTZmYWY2ODllYWU2MWM3NTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwODk1ZDgzNTliMDVjN2NlNGRlN2I0NjNlYzE4ZWE0ODhlMjNmZWMyN2EzNGEyMzFhZjhiZDUyYTFkOTU0YTE3NTBhIiwidWlkIjoiMGFlZjVjNGVkOGU2OWNlZWY3ZjRmNGVmZjdkYjZkMTkiLCJ1c2VybmFtZSI6ImVlbnR6ZWwifSwic2VydmljZSI6eyJob3N0bmFtZSI6InViZXJtYWMubmV0IiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTgifSwiY3RpbWUiOjE0ODEwNDY3NDEsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ4MTA0NjcwMCwiaGFzaCI6ImIxYzFiMjJlMmYzNTAxNmVmYzlmYzhkMTNkNTZlNWRhM2RiODVkMzUyNDFiMjM2ODQ2YTZhZWE0OWU2OTJkNTViZDcyYTM5YjYyMjY4ODRlOGE3NzBiNWMxZjc2NDViOThjNDM3NjkzNWZmYjFhYTAxNjU3MmY5MTg4NmRkYjc4Iiwic2Vxbm8iOjc0OTk3MX0sInByZXYiOiI2MmJhMGIyOWQyMmQ4M2I2ZTVjYjg5ZmI1N2NjYmM5OTM1MjM2Y2Q3MWE3ZGFkZWQ3OTIzZDJlMmE1ZTQ4M2VlIiwic2Vxbm8iOjksInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAHC4U7x5pIuX24GTu+32mb9AHlFL0OQqg0JF6JP/O+9EhmXJ0imYb94oPaZeT8hafawhyO+it1tE1fme4qH3SBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGOQqmsIMRNu+IxOeWH7gNtNQgFoT3xxeDF6PGfKy7+bo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/eentzel
