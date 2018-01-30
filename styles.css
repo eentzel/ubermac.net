@@ -87,12 +87,14 @@ nav {
     clear: both;
     text-align: center;
     border-top: 1px solid #ccc;
+    padding-top: 1em;
 }
 
 nav ul {
     list-style: none;
     margin-bottom: 0px;
     padding: 0;
+    display: inline;
 }
 
 nav li {
